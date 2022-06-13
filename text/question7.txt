@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <title>question 7</title>
+    <STYLE>
+        DIV{
+            HEIGHT:200PX;
+            WIDTH:200PX;
+            display:inline-block;
+            margin-top:1%;
+        }
+      .FIRST{
+        background-color:red;
+        margin-left:25%;
+      }
+      .second{
+          background-color: blueviolet;
+          margin-left:1%;
+      }
+      .third{
+          background-color:lightpink;
+          margin-left:1%;
+            }
+            body{
+            border:2px solid black;
+            padding-left: 10px;
+        }
+    </STYLE>
+</head>
+<body>
+   <DIV class="FIRST">
+   </DIV> 
+   <DIV class="second">
+</DIV> 
+<DIV class="third">
+</DIV> 
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js question 10</title>
+    <link rel="icon" href="../images/small.png">
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin:0px;
+        }
+          xmp{
+            margin: 0px;
+            display:inline-block;
+        }
+    section  input{
+            margin:0px;
+        }
+    section  h2{
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+    section  div{
+            border:4px solid greenyellow;
+            padding:2%;
+            font-size: 1.2rem;
+            width:70%;
+            margin:0px auto 0px auto;
+        }
+        section h1{
+            text-align: center;
+        }
+    </style>
+    <script>
+        function check()
+        {
+            var a=document.getElementById(1).value;
+            var b=document.getElementById(2).value;
+            var c=document.getElementById(3).value;
+            a=parseInt(a);
+            b=parseInt(b);
+            c=parseInt(c);
+            if(a>b)
+            {
+                if(a>c)
+            alert(a+" is greater")
+            else
+            alert(c+" is greater");
+            }
+            else
+            {
+                if(b>c)
+            alert(b+" is greater");
+            else
+            alert(c+" is greater");
+
+            }
+        }
+
+        </script>
+</head>
+<body>
+    <nav>
+        <div class="logo">Code Web</div>
+        <div class="menu">
+            <div class="dropdown width-25">
+                   <a href="../html/html.html">HTML</a>
+                <div class="dropdown-content">
+                    <a href="../html/html elements.html" target="_blank">HTML Elements</a>
+                    <a href="../html/formatting tags.html" target="_blank">Formatting Tags</a>
+                    <a href="../html/Lists.html" target="_blank">Lists</a>
+                    <a href="../html/imagetag.html" target="_blank">Image Tag</a>
+                    <a href="../html/table.html" target="_blank">Table Tag</a>
+                    <a href="../html/form.html" target="_blank">Forms</a>
+                </div>
+            </div>
+        <a href="../html/css1.html" target="_blank" class="width-25">CSS</a>
+        <div class="dropdown width-25">
+            <a href="../html/js.html">JAVASCRIPT</a>
+            <div class="dropdown-content">
+              <a href="js1.html" target="_blank">Question 1</a>
+              <a href="js2.html" target="_blank">Question 2</a>
+              <a href="js3.html" target="_blank">Question 3</a>
+              <a href="js4.html" target="_blank">Question 4</a>
+              <a href="js5.html" target="_blank">Question 5</a>
+              <a href="js6.html" target="_blank">Question 6</a>
+              <a href="js7.html" target="_blank">Question 7</a>
+              <a href="js8.html" target="_blank">Question 8</a>
+              <a href="js9.html" target="_blank">Question 9</a>
+              <a href="js10.html" target="_blank">Question 10</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <br><br>
+    <section>
+        <h1>Write a JavaScript program to find the greatest among three numbers.<br> Display the greater number with appropriate message using if else.</h1>
+        <div>
+    <xmp>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Js question 10</title>
+<script>
+function check()
+{
+    var a=document.getElementById(1).value;
+    var b=document.getElementById(2).value;
+    var c=document.getElementById(3).value;
+    a=parseInt(a);
+    b=parseInt(b);
+    c=parseInt(c);
+    if(a>b)
+    {
+        if(a>c)
+    alert(a+" is greater")
+    else
+    alert(c+" is greater");
+    }
+    else
+    {
+        if(b>c)
+    alert(b+" is greater");
+    else
+    alert(c+" is greater");
+
+    }
+}
+        
+                </script>
+        </head>
+        <body>
+            <form method="post">
+                Enter 1st number
+                <br><br>
+                <input type="number" name="input1" id="1">
+                <br><br>
+                Enter 2st number
+                <br><br>
+                <input type="number" name="input2" id="2">
+                <br><br>
+                Enter 1st number
+                <br><br>
+                <input type="number" name="input3" id="3">
+                <br><br>
+                <input type="button" value="check greatest" onclick="check()">
+        
+            </form>
+        </body>
+        </html>
+    </xmp>
+        </div>
+        <br>
+        <div>
+            <h2>Output</h2>
+            <form method="post">
+                Enter 1st number
+                <br><br>
+                <input type="number" name="input1" id="1">
+                <br><br>
+                Enter 2st number
+                <br><br>
+                <input type="number" name="input2" id="2">
+                <br><br>
+                Enter 1st number
+                <br><br>
+                <input type="number" name="input3" id="3">
+                <br><br>
+                <input type="button" value="check greatest" onclick="check()">
+        
+            </form>
+        </div>
+    </section>
+   
+</body>
+</html>

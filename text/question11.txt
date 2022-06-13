@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>question 11</title>
+    <style type="text/css">
+        h1{
+            margin-bottom:0px;
+        }
+        .mar
+        {
+            margin-top:0px;
+            color:grey;
+            font-weight: 100;
+        }
+        .co
+        {
+            color:white;
+        }
+        div
+        {
+            background-color: green;
+            display:inline-block;
+            width:10%;
+            text-align: center;
+           border-radius: 4%;
+        }
+        body{
+            border:2px solid black;
+            padding-left:1%;
+            padding-top:2%;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>HTML CSS COUSRE</h1>
+        <h2 class="mar">Beginner to Pro</h2>
+        <p>In this course,we'll learn the skills<br>you need to become a developer</p>
+        <div>
+            <p class="co">Get Started</p>
+        </div>
+    </body>
+</html>

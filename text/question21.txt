@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>question 21</title>
+    <style>
+        h1{
+            width:15%;
+            text-align: center;
+            color:white;
+            background-color: blue;
+        padding:1%; 
+        border-radius: 5ch;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>TWEET</h1>
+</body>
+</html>

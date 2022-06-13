@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>question 12 </title>
+        <style>
+            body{
+                text-align: center;
+            }
+            div{
+                margin-top:3%;
+            }
+            p
+            {
+                margin-top:0px;
+            }
+            h2{
+                margin-bottom: 0.8%;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .co
+            {
+                color:blue;
+            }
+            body{
+                border:2px solid black;
+            }
+        </style>
+    </head>
+   <body>
+       <div>
+            <h2>Shopping for your bussiness?</h2> 
+            <p>See how apple at work can help.</p>
+            <p class="co">learn more ></p>
+       </div>
+    
+
+   </body>
+</html>

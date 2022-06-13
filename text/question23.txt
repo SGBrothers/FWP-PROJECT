@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>question23</title>
+   <style>
+       p{
+           width: 12%;
+           color:white;
+           background-color: black;
+           padding:1%;
+           text-align: center;
+       }
+   </style>
+</head>
+<body>
+    <p>👉 Share this course</p>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>question 19</title>
+    <style>
+            div{
+                background-color: blueviolet;
+                color:white;
+                padding-top:1%;
+                padding-bottom: 3%;
+               border-radius: 1ch;
+                padding-left: 1%;
+                padding-right: 2%;
+                width:25%;
+                margin-top:2%;
+            }
+            h1{
+                color:white;
+            }
+            body{
+               
+                background-color: pink;
+                border:5px solid black;
+                margin:0px;
+                padding-left:1%;
+            }
+            h2{
+                width:15%;
+                text-align: center;
+                position: relative;
+                left:60%;
+                border:2px solid white;
+                border-radius:50%;
+                padding-top:1%;
+                padding-bottom: 1%;
+            }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>
+            projects . Branding
+        </p>
+        <h1>Make It LIVE</h1>
+        <p>
+            -Lorem ipsum,dolor sit amet consectetur<br>adipisicing elit.Consequuntur perferendis,alias<br>quibusdam
+            ratione ea cu id laudantium<br>accusantium tempore,numquam dicta,tenetur<br>ipsam!
+        </p>
+        <h2>$37</h2>
+    </div>
+ 
+
+</body>
+
+</html>

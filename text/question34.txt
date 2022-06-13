@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 34</title>
+    <style>
+        div {
+            width: 70%;
+            padding:4%;
+            margin:0px auto 0px auto;
+        }
+
+        p {
+            width: 55%;
+            margin-top:2%;
+        }
+        .co{
+              color:#55D8C1;
+        }
+        h2{
+                font-weight: 100;
+                color:#61b0d2;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <center>
+            <h2 >Get In Touch</h2>
+            <p class="co"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita similique voluptatibus facilis,
+                nesciunt veniam eligendi esse amet facere non voluptates accusantium earum vitae perferendis harum
+                quibusdam nemo itaque cupiditate perspiciatis?</p>
+
+        </center>
+    </div>
+</body>
+
+</html>

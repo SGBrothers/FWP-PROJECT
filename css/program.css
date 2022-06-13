@@ -1,0 +1,54 @@
+
+body{
+ background-color: #E4F9F5;;
+}
+
+.center{
+    margin:0px auto 0px auto;
+     width:40%;
+     text-align: center;
+  }
+
+.heading1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:2.5rem;
+      font-family: 'Kaushan Script', cursive;
+      color:#156a77;
+  }
+  
+  .heading2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    left: 96px;
+    font-size:1.75rem;
+      font-family: 'Kaushan Script', cursive;
+      color:#156a77;
+  }
+iframe{
+  background-color: white;
+  border:2px solid blue;
+}
+  section div h1{
+    display:inline-block;
+    width:20%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    margin-left:5%;
+    font-size: 2rem;
+    color:white;
+    background-color:#11999E;
+    border-radius: 4ch;
+}
+section div a {
+    display:block;
+    text-decoration: none;
+}
+section div h1 a:hover{
+   
+    background-color: yellow;
+    color:black;
+    border-radius: 4ch;
+}

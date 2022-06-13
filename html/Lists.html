@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../images/small.png">
+    <title>Lists</title>
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+    <style>
+     section  h1{
+            margin:0px;
+        }
+    section h2,h3,h4{
+            margin:1%;
+        }
+        .fbox{
+            display:flex;
+            justify-content: space-between;
+        }
+        .fitem{
+            width:40%;
+            height:600px;
+            border: 2px solid  #242F9B;
+            padding:1%;
+        }
+        .fitem1{
+            width:40%;
+            height:600px;
+            border: 2px solid  #242F9B;
+            padding:1%;
+            margin:0px auto 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Code Web</div>
+        <div class="menu">
+            <div class="dropdown width-25">
+                   <a href="html.html">HTML</a>
+                <div class="dropdown-content">
+                    <a href="html elements.html" target="_blank">HTML Elements</a>
+                    <a href="formatting tags.html" target="_blank">Formatting Tags</a>
+                    <a href="Lists.html" target="_blank">Lists</a>
+                    <a href="imagetag.html" target="_blank">Image Tag</a>
+                    <a href="table.html" target="_blank">Table Tag</a>
+                    <a href="form.html" target="_blank">Forms</a>
+                </div>
+            </div>
+            <a href="css1.html" target="_blank" class="width-25">CSS</a>
+        <div class="dropdown width-25">
+            <a href="js.html">JAVASCRIPT</a>
+            <div class="dropdown-content">
+                <a href="../js.html/js1.html" target="_blank">Question 1</a>
+                <a href="../js.html/js2.html" target="_blank">Question 2</a>
+                <a href="../js.html/js3.html" target="_blank">Question 3</a> 
+                <a href="../js.html/js4.html" target="_blank">Question 4</a>
+                <a href="../js.html/js5.html" target="_blank">Question 5</a>
+                <a href="../js.html/js6.html" target="_blank">Question 6</a>
+                <a href="../js.html/js7.html" target="_blank">Question 7</a>
+                <a href="../js.html/js8.html" target="_blank">Question 8</a>
+                <a href="../js.html/js9.html" target="_blank">Question 9</a>
+                <a href="../js.html/js10.html" target="_blank">Question 10</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <br><br>
+    <section>
+        <center>
+            <h1>Lists</h1>
+        </center>
+      
+        <h2>HTML offers three ways for specifying lists of information</h2>
+        <br>
+        <div class="fbox">
+            <div class="fitem">
+                <h3>Ordered List &lt;ol&gt;</h3>
+                <p>Ordered list is used to represent your list with some specific squence. <br>However,you can customize their
+                    appearance in browser showing numbers (1,2,3) or alphabets (A,B,C) or roman numerals(i,ii,iii) etc.<br>Each
+                    ordered list is encapsulated in ordered list tags &lt;ol&gt; and each item within the list is nested in the
+                    list item tags (&lt;li&gt;)</p>
+                <h4>Syntax</h4>
+                <p>
+                    <pre>
+                   &lt;ol&gt;
+                        &lt;li&gt; content &lt;/li&gt; 
+                        &lt;li&gt; content &lt;/li&gt; 
+                   &lt;/ol&gt;
+                    </pre>
+                    <p>Type and Start are the following attributes of ordered list <br> <strong>Type</strong> It is ues to specify the type of numbering you like.<br><strong>Start</strong>:The value of this attribute should be the number from which you want to start the list.</p>
+                </p>
+                <h4>Example</h4>
+                <p>
+                    <pre>
+                &lt;ol&gt;
+                        &lt;li type="A" start="3"&gt; C language &lt;/li&gt; 
+                        &lt;li&gt; C++ &lt;/li&gt; 
+                        &lt;li&gt; python &lt;/li&gt;
+                &lt;/ol&gt;
+                    </pre>
+                   
+                </p>
+                <h4>Output</h4>
+                <ol type="A" start="3">
+                    <li>C Language</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                </ol>
+            </div>
+            <div class="fitem">
+                <h3>UnOrdered List &lt;ul&gt;</h3>
+                <p>UnOrdered list is used when order of the items in the list does not matter.<br>For example, when ypu want to list flavours of ice cream,you can use Unordered list. <br>Unordered list is encapsulated in ordered list tags &lt;ul&gt; and each item within the list is nested in the
+                    list item tags (&lt;li&gt;)</p>
+                <h4>Syntax</h4>
+                <p>
+                    <pre>
+                   &lt;ul&gt;
+                        &lt;li&gt; content &lt;/li&gt; 
+                        &lt;li&gt; content &lt;/li&gt; 
+                   &lt;/ol&gt;
+                    </pre>
+                </p>
+                <p>Type and Start are the following attributes of ordered list <br> <strong>Type</strong>: It is ues to specify the type of numbering you like.</p>
+                <h4>Example</h4>
+                <p>
+                    <pre>
+                &lt;ul type=square&gt;
+                        &lt;li&gt; Keyboard &lt;/li&gt; 
+                        &lt;li&gt; Mouse &lt;/li&gt; 
+                        &lt;li&gt; printer &lt;/li&gt;
+                &lt;/ul&gt;
+                    </pre>
+                   
+                </p>
+                <h4>Output</h4>
+                <ul type="square">
+                    <li>Keyboard</li>
+                    <li>Mouse</li>
+                    <li>Printer</li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+       <div class="fbox">
+        <div class="fitem1">
+            <h3>Defination List &lt;dl&gt;</h3>
+            <p>The (&lt;dl&gt;) definition list is a special list which provide trems followed by a short text definition or description for them. <br>The definition list is the ideal way to represent a glossary,list of terms.</p>
+            <h4>Syntax</h4>
+            <p>
+                <pre>
+               &lt;dl&gt;
+                    &lt;dt&gt; content &lt;/dt&gt; 
+                    &lt;dd&gt; content &lt;/dd&gt; 
+               &lt;/dl&gt;
+                </pre>
+            </p>
+            <p>
+                <strong>&lt;dl&gt;</strong>-Defines the start of the<br>
+                <strong>&lt;dt&gt;</strong>-A term<br>
+                <strong>&lt;dd&gt;</strong>-Term definition<br>
+                <strong>&lt;/dl&gt;</strong>-Defines the end of the list
+            </p>
+            <h4>Example</h4>
+            <p>
+                <pre>
+            &lt;dl&gt;
+                    &lt;dt&gt; Keyboard &lt;/dt&gt; 
+                    &lt;dd&gt; It is input device.&lt;/dd&gt; 
+                    &lt;dt&gt; printer &lt;/dt&gt; 
+                    &lt;dd&gt; It is output device.&lt;/dd&gt;        
+             &lt;/dl&gt;
+                </pre>
+               
+            </p>
+            <h4>Output</h4>
+            <dl>
+                <dt>keyboard</dt>
+                <dd>It is input device</dd>
+                <dt>printer</dt>
+                <dd>It is output device</dd>
+            </dl>
+        </div>
+       </div>
+    </section>
+    
+</body>
+
+</html>

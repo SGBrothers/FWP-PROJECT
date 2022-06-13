@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link rel="icon" href="../images/small.png">
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+   
+   <style>
+        section  div{
+               text-align: left;
+               margin:0px auto 0px auto;
+           }
+           pre{
+               border: 2px outset black;
+               width:40%; 
+               margin:0px auto 0px auto;
+           }
+           img{
+               width:60%;
+               border:2px solid blue;
+           }
+           section  h1{
+               text-align: center;
+           }
+       </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Code Web</div>
+        <div class="menu">
+            <div class="dropdown width-25">
+                   <a href="html.html">HTML</a>
+                <div class="dropdown-content">
+                    <a href="html elements.html" target="_blank">HTML Elements</a>
+                    <a href="formatting tags.html" target="_blank">Formatting Tags</a>
+                    <a href="Lists.html" target="_blank">Lists</a>
+                    <a href="imagetag.html" target="_blank">Image Tag</a>
+                    <a href="table.html" target="_blank">Table Tag</a>
+                    <a href="form.html" target="_blank">Forms</a>
+                </div>
+            </div>
+            <a href="css1.html" target="_blank" class="width-25">CSS</a>
+        <div class="dropdown width-25">
+            <a href="js.html">JAVASCRIPT</a>
+            <div class="dropdown-content">
+                <a href="../js.html/js1.html" target="_blank">Question 1</a>
+                <a href="../js.html/js2.html" target="_blank">Question 2</a>
+                <a href="../js.html/js3.html" target="_blank">Question 3</a> 
+                <a href="../js.html/js4.html" target="_blank">Question 4</a>
+                <a href="../js.html/js5.html" target="_blank">Question 5</a>
+                <a href="../js.html/js6.html" target="_blank">Question 6</a>
+                <a href="../js.html/js7.html" target="_blank">Question 7</a>
+                <a href="../js.html/js8.html" target="_blank">Question 8</a>
+                <a href="../js.html/js9.html" target="_blank">Question 9</a>
+                <a href="../js.html/js10.html" target="_blank">Question 10</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <br><br>
+    <section>
+        <center><h1>What is HTML?</h1></center>
+        <div>
+            <p>HTML ior Hypertext Markup Language  as the name suggest is made from two parts.</p>
+            <p><strong>Hypertext : </strong>is the text displayed on web pages and contains links to navigate to other br hypertext documents.A hypertext document may describes objects such as lists,tables,images and forms. </p>
+            <p>
+                <strong>Markup Language:</strong>A markup language is a language for annotating documents with <br> tags that tell a web browser how to display the content on a web page.
+            </p>
+        </div>
+        <br>
+       <center><h1>Structure of HTML</h1></center>
+    
+        <pre>
+                               
+                            &lt;!DOCTYPE html&gt;
+                            
+                                &lt;html&gt;
+                                
+                                        &lt;head&gt;
+    
+                                                &lt;title&gt;
+    
+    
+                                                &lt;title&gt;
+    
+    
+                                        &lt;head&gt;
+                                
+                                        &lt;body&gt;
+                                            
+                                        &lt;body&gt;
+    
+                                &lt;html&gt;
+        </pre>
+            <br>   
+        <div>
+            <table cellspacing="4" cellpadding="2" border="2">
+                <tr>
+                    <th>Tag name</th>
+                    <th>Description</th>
+                </tr>
+              <tr>
+                <td> &lt;!DOCTYPE&gt;</td>
+                <td>This tag defines the document type and HTML versions. 
+                </td>
+              </tr>
+                <tr>
+                    <td align="center" valign="middle"> &lt;html&gt;</td>
+                    <td>This tag encloses the complete HTML document and mainly comprises  of document header which is represented by &lt;head&gt;...&lt;head&gt; and document body which is represented by&lt;body&gt;...&lt;body&gt; tags. </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle"> &lt;head&gt;</td>
+                    <td>
+                        This tag represents the document's header which can keep other HTML tags like &lt;title &gt;,&lt;link&gt; etc.
+                    </td>
+                </tr>
+                <tr>
+                   <td align="center" valign="middle">
+                        &lt;title&gt;
+                   </td> 
+                   <td>
+                    The &lt;title&gt; tag is used inside the &lt;head&gt; tag to mention the document title.
+                   </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle">
+                            &lt;body&gt;
+                    </td>
+                    <td>
+                        This tag represents the document's body which keeps other HTML tags like &lt;h1&gt; , &lt;div&gt; ,&lt;p&gt; etc.
+                    </td>
+                </tr>
+            </table>
+        </div>
+                <h1>Example</h1>
+                <pre>
+                               
+                    &lt;!DOCTYPE html&gt;
+                    
+                        &lt;html&gt;
+                        
+                                &lt;head&gt;
+    
+                                        &lt;title&gt;
+    
+                                            First page
+    
+                                        &lt;title&gt;
+    
+    
+                                &lt;head&gt;
+                        
+                                &lt;body&gt;
+    
+                                &lt;h1&gt; Hello world  &lt;h1&gt;
+                                
+                                    &lt;body&gt;
+    
+                        &lt;html&gt;
+    </pre>
+    <br><br>
+    <h1>Output</h1>
+    <center>
+        <img src="../images/firstpage.png" alt="first page">
+    
+    </center>
+    </section>
+</body>
+</html>

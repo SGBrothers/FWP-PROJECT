@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>question27</title>
+    <style>
+        .top{   
+            padding-left: 7%;
+            padding-right: 5%;
+            padding-bottom: 1%;
+            border: 2px solid black;
+        }
+        .bottom{
+            margin-top:1%;
+            margin-bottom: 1%;
+        }
+        img{
+            margin-left: 4%;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <center>
+            <h1>our achivements</h1>
+        </center>
+        <div>
+            <img src="../images/natur.jfif" alt="image of nature">
+            <img src="../images/natur.jfif" alt="image of nature">
+            <img src="../images/natur.jfif" alt="image of nature">
+        </div>
+        <div class="bottom">
+            <img src="../images/natur.jfif" alt="image of nature">
+            <img src="../images/natur.jfif" alt="image of nature">
+            <img src="../images/natur.jfif" alt="image of nature">
+        </div>
+    </div>
+</body>
+</html>

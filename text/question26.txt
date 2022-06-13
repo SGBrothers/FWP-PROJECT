@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 26</title>
+    <style>
+        li{
+            list-style:  none;
+            display:inline-block;
+            margin-left: 10%;
+        }
+      
+        header{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-left:4%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border:4px solid black;
+        }
+        nav{
+            margin-right: 10%;
+            width:700px;
+        }
+        input{
+            margin-left: 10%;
+            width:12%;
+            border-radius: 2ch;
+        }
+        img{
+            position: relative;
+            left:8%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img align="middle" class="logo" src="../images/small.png" alt="logo image">Codeweb
+        <nav>
+                <li>Home</li>
+                <li>products</li>
+                <li>About Us</li>
+                <li>Contacts</li>
+                <input type="button" value="button">
+        </nav>
+    </header>
+</body>
+</html>

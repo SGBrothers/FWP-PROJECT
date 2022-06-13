@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="icon" href="../images/small.png">
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+   
+    <style>
+        xmp{
+            margin: 0px;
+            display:inline-block;
+        }
+    section  input{
+            margin:0px;
+        }
+    section  h2{
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+    section  div{
+            border:4px solid greenyellow;
+            padding:2%;
+            font-size: 1.2rem;
+            width:70%;
+            margin:0px auto 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Code Web</div>
+        <div class="menu">
+            <div class="dropdown width-25">
+                   <a href="html.html">HTML</a>
+                <div class="dropdown-content">
+                    <a href="html elements.html" target="_blank">HTML Elements</a>
+                    <a href="formatting tags.html" target="_blank">Formatting Tags</a>
+                    <a href="Lists.html" target="_blank">Lists</a>
+                    <a href="imagetag.html" target="_blank">Image Tag</a>
+                    <a href="table.html" target="_blank">Table Tag</a>
+                    <a href="form.html" target="_blank">Forms</a>
+                </div>
+            </div>
+            <a href="css1.html" target="_blank" class="width-25">CSS</a>
+        <div class="dropdown width-25">
+            <a href="js.html">JAVASCRIPT</a>
+            <div class="dropdown-content">
+                <a href="../js.html/js1.html" target="_blank">Question 1</a>
+                <a href="../js.html/js2.html" target="_blank">Question 2</a>
+                <a href="../js.html/js3.html" target="_blank">Question 3</a> 
+                <a href="../js.html/js4.html" target="_blank">Question 4</a>
+                <a href="../js.html/js5.html" target="_blank">Question 5</a>
+                <a href="../js.html/js6.html" target="_blank">Question 6</a>
+                <a href="../js.html/js7.html" target="_blank">Question 7</a>
+                <a href="../js.html/js8.html" target="_blank">Question 8</a>
+                <a href="../js.html/js9.html" target="_blank">Question 9</a>
+                <a href="../js.html/js10.html" target="_blank">Question 10</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <br><br>
+    <section>
+        <div>
+            <center>
+                <h1>Forms</h1>
+            </center>
+            <p>HTML Forms are required, when you want to collect some data from the site visitor. <br> For example, during user
+                registration you would like to collect information such as name, email address, credit card, etc.</p>
+                <xmp>
+            <form action="Script URL" method="GET|POST"> 
+                form elements like input, textarea etc.
+             </form>
+                </xmp>
+                <h2>form attributes</h2>
+                <p><strong>action:</strong>Backend script ready to process your passed data.</p>
+                <p><strong>method:</strong>Method to be used to upload data. The most frequently used are GET and POST methods.</p>
+                <h2>Forms control</h2>
+                <p>There are different types of form controls that you can use to collect data using HTML form:</p>
+                    <ul>
+                        <li>text box</li>
+                        <li>Radio button</li>
+                        <li>Check box</li>
+                        <li>Drop down menu</li>
+                        <li>text area </li>
+                        <li>submit button</li>
+                        <li>reset button</li>
+                    </ul>  
+                    <h2>input element</h2>    
+                    <p>The input element is used to insert various controls in the form such as text boxes, password boxes,buttons etc.</p>
+                    <p>
+                        <strong>Type:</strong>It is used to define the type of fields to be created.<br><br>The values that this attributes can take are test,password, Radio, Checkbox,etc.
+                    </p>
+                    <table border="2px" cellspacing="5" width="40%">
+                       
+                        <tr>
+                            <th>value</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Text</td>
+                            <td>Define a singlew line text field</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>Define a password field</td>
+                        </tr>
+                        <tr>
+                            <td>checkbox</td>
+                            <td>Define a checkbox</td>
+                        </tr>
+                        <tr>
+                            <td>radio</td>
+                            <td>Define a radio button</td>
+                        </tr>
+                        <tr>
+                            <td>submit</td>
+                            <td>Define a submit button</td>
+                        </tr>
+                        <tr>
+                            <td>reset</td>
+                            <td>Define a reset button</td>
+                        </tr>
+                        <tr>
+                            <td>Button</td>
+                            <td>Define a push button</td>
+                        </tr>
+                    </table>
+                    <p>
+                        <strong>Name:</strong>It is used to specify the name of a field in the form.<br><br>
+                        <strong>value:</strong>It is used to specify the default value of a field in the form.
+                    </p>
+                    <h3>syntax</h3>
+            <xmp>
+<input type="text | password | button | radio | checkbox | submit | reset |"
+    name="name of field" value="default value">
+            </xmp>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>TextBox</h3>
+                            <p>It is used in situtaions where you eant the visitor to enter only a single line of text <br><br>as his name,id,city,etc.<br><br>The type attribute of the <xmp><input></xmp> element is set to "text" to create a textbox.</p>
+                            <h4>syntax</h4>
+                            <p>
+            <xmp>
+                <input type="text" name="text_box">
+            </xmp>
+                            </p>
+                            <h4>attribute</h4>
+                            <p> <strong>size:</strong>size	Allows to specify the width of the text-input control in terms of characters. <br><br> <strong>Maxlength:</strong>Allows to specify the maximum number of characters a user can enter into the text box. <br><br> <strong>value:</strong>This can be used to provide an initial value inside the control.</p>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>Password</h3>
+                            <p>When a password is entered, instead of displaying characters,either asterik (*) or dot(.) are shown.<br><br>To make textbox that can hide the entered characters,<xmp>The type attribute of the <input></xmp> element is set to "password"</p>
+                            <h4>syntax</h4>
+            <xmp>
+                <input type="password" name="name of password_box">
+            </xmp>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>Radio button</h3>
+                            <p>Radio button is use to dsipaly a small circular button that can be either selected or deslected.<br>Radio buttons are mutually exclusive i.e. the visitor can choose only one right option from all the choices.<xmp> The tye attribute  <input></xmp> element is set to "radio" to create a radio.</p>
+                            <h4>syntax</h4>
+                            <p>
+            <xmp>
+                <input type="radio" name="radio_button_name">
+            </xmp>
+                            </p>
+                            <h4>attribute</h4>
+                            <p> <strong>Name:</strong>This attribute is uesd to specify name for the radio button.<br>The collection of buttons have same name .Thus selecting one will turn the other off <br> <strong>Value:</strong>The value that will be used if the radio box is selected.<br> <strong>Checked:</strong>Set to checked if you want to select it by default.</p>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>CheckBox</h3>
+                            <p>The checkBox is used to display small squares that offers the users a number of choices that can toggled "on" and "off".<br>A tick is displayed if the choice is selected otherwise the square box remains empty <br> An &lt;INPUT &gt; element is set to "check" to create a cekeckbox.</p>
+                            <h4>syntax</h4>
+            <xmp>
+                <input type="checkbox" name="check_box_name">
+            </xmp>
+                            <h4>attribute</h4>
+                            <p> <strong>Name:</strong>This attribute is uesd to specify name for the radio button.<br>The collection of buttons have same name .Thus selecting one will turn the other off <br> <strong>Value:</strong>The value that will be used if the radio box is selected.<br> <strong>Checked:</strong>Set to checked if you want to select it by default.</p>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>Submit button</h3>
+                            <p>The submit button is used to submit the form data entered by the user to the web server. <br> An &lt;INPUT &gt; tag with attribute type is set to "submit" to create a submit button</p>
+                            <h4>syntax</h4>
+            <xmp>
+                <input type="submit" value="submit_button_name">
+            </xmp>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>Reset button</h3>
+                            <p>The reset button is used to clear all form's data entered by the user and reset it to the initial values. <br> An &lt;INPUT &gt; tag with attribute type is set to "submit" to create a reset button</p>
+                            <h4>syntax</h4>
+            <xmp>
+                <input type="reset" value="reset_button_name">
+            </xmp>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>Button</h3>
+                            <p>The push button is similar in shape to select and reset buttons but like submit and  reset buttons, it does not have predefined behaviour. <br> An &lt;INPUT &gt; tag with attribute type is set to "button" to create a button button</p>
+                            <h4>syntax</h4>
+            <xmp>
+             <input type="button" value="button_name" onclick="function_name()">
+            </xmp>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>Select And Option Tag</h3>
+                            <p>It is used to create drop down menus.They allow the user to select a single or multiple choices from a list of choices. <br> All the choices are not shown on the screen but they are visible when pulls thr drop down list.<br>That is why they are also known as pull down lists or drop down memus. <br>The &lt;SELECT &gt; tag is similar in functionality to unordered (&lt;UL&gt;) or ordered lists(&lt;OL&gt;) used in html to define  a list and &lt;OPTION&gt; tag is similar to the list item (&lt;LI&gt;) which specifies the list item in a list.</p>
+                            <h4>syntax</h4>
+                            <p> 
+            <xmp>
+                <select name="select _list_name" multiple>
+                    <option value="choice-name1" selected>Text label-1</option>
+                    <option value="choice-name2">Text label-2</option>
+                </select>
+            </xmp>
+                            </p>
+                            <h4>attribute</h4>
+                            <p> <strong>Name:</strong>Used to give a name to the control which is sent to the server to be recognized and get the value.<br><br> <strong>Size</strong>This can be used to present a scrolling list box.<br><br> <strong>Multiple</strong>If set to "multiple" then allows a user to select multiple items from the menu.</p>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>TextArea</h3>
+                            <p>The Textarea form control is used if you want the multiple-line information from the visistor.<br>It enables you to create a field in which th user can enter a large amount  of text.<br>This multiline input area can be implemented using &lt;TEXTAREA&gt;...&lt;/TEXTAREA&gt; tags.</p>
+                            <h4>syntax</h4>
+            <xmp>
+               <textarea name="textarea_name" id="" cols="n" rows="m" readonly>
+                Initial content</textarea>
+            </xmp>
+                            <h4>attribute</h4>
+                            <p> <strong>ROWS:</strong>It is a compulsory attribute which is used to set the number of rows of the text that will be visisble without scrolling up or down.<br><br> <strong>COLS:</strong>It is a compulsory attribute which is used to set the number of coloumns of the text that will be visisble without scrolling left or right<br><br> <strong>Name:</strong>It is optional atribute which is used to specifies the name of the textarea field.<br><br><strong>Readonly</strong>It is optional atribute which when used prevent the ussr from alternating the initial contents.</p>  
+                        </div>
+                        <br>
+                        <div>
+                           <center><h1>EXAMPLE</h1></center>   
+                           <form method="get">
+                            Name <br><input type="text" name="user_name" id="name"><br>
+                            phone Number<br> <input type="number" name="user_phone"  id="user_name"> <br>
+                            Password <br><input type="password"  name="user_password" id="user_pasword"> <br><br>
+                            Gender  
+                                male <input type="radio" name="gender" value="M">
+                                female<input type="radio" name="gender" value="F">
+                            <br><br>
+                            stream 
+                            <select name="class">
+                                <option value="BCA">BCA</option>
+                                <option value="BBA">BBA</option>
+                                <option value="BSC">BSC</option>
+                                <option value="BCOM">BCOM</option>
+                            </select>
+                                <br><br>
+                                hobbies <br>
+                               Poetry   <input type="checkbox" value="poetry" name="hobbi1" id="hobbi1">
+                                Dancing  <input type="checkbox" value="dancing" name="hobbi2"  id="hobbi2">
+                               Singing   <input type="checkbox" value="singing"  name="hobbi3"id="hobbi3">
+        <br><br>
+                                <input type="submit">
+                                <input type="reset">
+                                <br>
+                           </form>
+                        </div>
+    </section>
+  
+</body>
+
+</html>

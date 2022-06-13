@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>question 17</title>
+    </head>
+    <style>
+        div{
+            background-color: pink;
+            color:red;
+            border:2px solid black;
+            padding-top:1%;
+            padding-bottom: 1%;
+
+        }
+    </style>
+    <body>
+        <div>
+            <center>
+                <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quia,quos</p>
+            </center>
+        </div>
+    </body>
+</html>

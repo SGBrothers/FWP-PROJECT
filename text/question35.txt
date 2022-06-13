@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 35</title>
+    <style>
+            .fbox{
+                display:flex;
+                justify-content: space-evenly;
+              
+            }
+            .fitem{
+                    width:370px;
+                    height:200px;
+                    box-shadow: 2px 2px 5px;
+                    text-align: center;
+            }
+            h2{
+                text-align: center;
+            }
+            .bo{
+                padding:2%;
+                border:2px solid black;
+            }
+            .fitem:hover{
+                    border-bottom: 5px solid pink;
+                    border-left: 5px solid  pink;
+            }
+    </style>
+    
+</head>
+<body>
+    <div class="bo">
+        <div class="fbox">
+            <div class="fitem">
+                <img src="../images/service 1.jpg" alt="">
+                <h2>Service 1</h2>
+            </div>
+            <div class="fitem">
+                <img src="../images/service 2.jpg" alt="">
+                <h2>Service 1</h2>
+            </div>
+            <div class="fitem">
+                <img src="../images/service 3.jpg" alt="">
+                <h2>Service 1</h2>
+            </div>
+        </div>
+        <br>
+        <div class="fbox">
+            <div class="fitem">
+                <img src="../images/service 1.jpg" alt="">
+                <h2>Service 1</h2>
+            </div>
+            <div class="fitem">
+                <img src="../images/service 2.jpg" alt="">
+                <h2>Service 1</h2>
+            </div>
+            <div class="fitem">
+                <img src="../images/service 3.jpg" alt="">
+                <h2>Service 1</h2>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

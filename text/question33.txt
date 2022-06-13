@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 33</title>
+    <style>
+        h1{
+            width:20%;
+            padding:2%;
+            border-radius: 5ch;
+            display:inline-block;
+            margin-left:3%;
+            color:white;
+            font-size:2rem;
+            background-image: radial-gradient(#A63EC5,#CE49BF,#F190B7);
+            text-align: center;
+        }
+        h1:hover{
+            width:24%;
+            font-size: 2.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Play store</h1>
+    <h1>Apple store</h1>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>question24</title>
+        <style>
+            p{
+                display:inline-block;
+                color:white;
+                background-color:rgba(225, 0, 0 ,0.7);
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                 border-radius: 0.5ch; 
+            }
+            p:hover{
+                background-color: rgba(255, 0, 0 ,0.5);
+            }
+            div{
+                display:inline-block;
+                 border:2px solid black;
+                padding-left: 2%;
+                padding-right: 2%; 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>SUBSCRIBE</p>
+        </div>
+    </body>
+</html>

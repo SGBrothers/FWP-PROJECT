@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 32</title>
+    <style>
+        h3{
+            width:20%;
+            padding:1%;
+                color:white;
+                background-color:blueviolet ;
+        }
+        div{
+            width:60%;
+            display:inline-block;
+        }
+        h1{
+            width:48%;
+        }
+        img{
+            width:20%;
+            
+        }
+        body{
+            padding-left:3%;
+            padding-right: 3%;
+            background-color:#EEEEEE ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Designed for Startup & brands</h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores facere ducimus aliquid! Adipisci eum amet,
+            consequatur sint voluptate rerum hic maiores? Quos aperiam incidunt fuga earum ut ex temporibus a? </p>
+            <br>
+            <input type="checkbox"  checked> Lorem, ipsum dolor
+            <br>
+            <input type="checkbox"  checked> Lorem, ipsum dolor
+            <br>
+            <input type="checkbox"  checked> Lorem, ipsum dolor
+                    <h3>WATCH INTRO</h3>
+    </div>
+    <img src="../images/laptop.png" alt="image of computer">
+</body>
+
+</html> 

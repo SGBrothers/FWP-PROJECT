@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            question 10
+        </title>
+        <style>
+            div
+            {
+                margin-top:4%;
+                margin-left: 1%;
+                padding-top:1%;
+                padding-left:4%;
+                padding-right:4%;
+                background-color: red;
+                display:inline-block;
+            }
+            p
+            {
+                color:white;
+            }
+            body{
+                border:2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>
+                Shop early for the best selection of holiday favrouities.Shop Now>
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 39</title>
+    <style>
+        .pa{
+           padding:4%;
+            background-color: #11999E;
+            border:4px solid black;
+        }
+        a{
+            text-decoration: none;
+            margin-left:1.5%;
+            color:#1363DF;
+            font-weight: 100;
+        }
+        p{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="pa">
+        <center>
+            <a href="">Linkedin</a>
+            <a href="">Twitter</a>
+            <a href="">Website</a>
+            <br>
+            <p>© Sourav Kumar</p>
+        </center>
+            
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatting tags</title>
+    <link rel="icon" href="../images/small.png">
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+    <style>
+      section div img {
+            width: 42%;
+            border: 4px solid black;
+            margin: 0px auto 0px auto;
+            display: block;
+        }
+
+  section  h1,h2,h3 {
+            margin: 0px;
+        }
+
+        .fbox {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .fitem {
+            width: 30%;
+            height: 480px;
+            border: 2px solid  #242F9B;
+            line-height: 1.1;
+            padding: 1%;
+        }
+        .fitem1{
+            width:30%;
+            height:300px;
+            border:2px solid  green;
+            padding:1%;
+        }
+
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Code Web</div>
+        <div class="menu">
+            <div class="dropdown width-25">
+                   <a href="html.html">HTML</a>
+                <div class="dropdown-content">
+                    <a href="html elements.html" target="_blank">HTML Elements</a>
+                    <a href="formatting tags.html" target="_blank">Formatting Tags</a>
+                    <a href="Lists.html" target="_blank">Lists</a>
+                    <a href="imagetag.html" target="_blank">Image Tag</a>
+                    <a href="table.html" target="_blank">Table Tag</a>
+                    <a href="form.html" target="_blank">Forms</a>
+                </div>
+            </div>
+            <a href="css1.html" target="_blank" class="width-25">CSS</a>
+        <div class="dropdown width-25">
+            <a href="js.html">JAVASCRIPT</a>
+            <div class="dropdown-content">
+                <a href="../js.html/js1.html" target="_blank">Question 1</a>
+                <a href="../js.html/js2.html" target="_blank">Question 2</a>
+                <a href="../js.html/js3.html" target="_blank">Question 3</a> 
+                <a href="../js.html/js4.html" target="_blank">Question 4</a>
+                <a href="../js.html/js5.html" target="_blank">Question 5</a>
+                <a href="../js.html/js6.html" target="_blank">Question 6</a>
+                <a href="../js.html/js7.html" target="_blank">Question 7</a>
+                <a href="../js.html/js8.html" target="_blank">Question 8</a>
+                <a href="../js.html/js9.html" target="_blank">Question 9</a>
+                <a href="../js.html/js10.html" target="_blank">Question 10</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <br><br>
+    <section>
+        <h1>Formatting tags </h1>
+        <br>
+        <div class="fbox">
+            <div class="fitem">
+                <h2>Paragraph tag &lt;p&gt;..&lt;/p&gt;</h2>
+                <p>It is paired tag. <br> It is Block Level Tag. <br>When a browser displays a paragraph with &lt;p&gt;
+                    <br> element,it usually inserts a new line before the next paragraph and <br> adds a little bit of extra
+                    vertical
+                    space.
+                </p>
+                <h3>Syntax</h3>
+                <p> &lt;p&gt;content &lt;/p&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;p&gt; this is 1st paragraph &lt;/p&gt;</p>
+                <p> &lt;p&gt; this is 2nd paragraph &lt;/p&gt;</p>
+                <h3>Output</h3>
+                <p> this is 1st paragraph </p>
+                <p> this is 2nd paragraph</p>
+            </div>
+            <div class="fitem">
+                <h2>Line Break tag &lt;br&gt;</h2>
+                <p>It is unpaired tag. <br> It is inline Tag. <br>The &lt;br&gt; element creates Line breaks.When ever you
+                    use &lt;br&gt; , anything following it starts on the next line. </p>
+                <h3>Syntax</h3>
+                <p> &lt;br&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;p&gt; this is 1st paragraph &lt;br&gt; this is 2nd paragraph &lt;/p&gt;</p>
+                <h3>Output</h3>
+                <p> this is 1st paragraph <br>this is 2nd paragraph </p>
+            </div>
+            <div class="fitem">
+                <h2>Heading tag &lt;h1&gt;..&lt;/h1&gt;</h2>
+                <p>It is paired tag. <br> It is Block Level Tag.<br>To cretae heading in thje document we use headin tags
+                    <br>There are 6 levels of heading from &lt;h1&gt; for the largest, down to &lt;h6&gt; for the smallest
+                    heading.
+                </p>
+                <p>These are &lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt; </p>
+                <h3>Syntax</h3>
+                <p> &lt;heading tag&gt;content &lt;/heading tag&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;h1&gt; this is 1st heading &lt;/h1&gt;</p>
+                <p> &lt;h2&gt; this is 2nd heading &lt;/h2&gt;</p>
+                <p> &lt;h3&gt; this is 3rd heading &lt;/h3&gt;</p>
+                <p> &lt;h4&gt; this is 4th heading &lt;/h4&gt;</p>
+                <p> &lt;h5&gt; this is 5th heading &lt;/h5&gt;</p>
+                <p> &lt;h6&gt; this is 6th heading &lt;/h6&gt;</p>
+                <h3>Output</h3>
+                <img src="../images/heading tag.png" alt="heading tag">
+            </div>
+        </div>
+        <br>
+        <div class="fbox">
+            <div class="fitem1">
+                <h2>Bold tag &lt;b&gt;..&lt;/b&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>The Text in between the tags will be bold, same as in word
+                    processor</p>
+                <h3>Syntax</h3>
+                <p> &lt;b&gt;content &lt;/b&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;b&gt; this is 1st paragraph &lt;/b&gt;</p>
+                <h3>Output</h3>
+                <b> this is 1st paragraph </b>
+            </div>
+            <div class="fitem1">
+                <h2>Italic tag &lt;i&gt;..&lt;/i&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>Italic displays the text at a slight angle</p>
+                <h3>Syntax</h3>
+                <p> &lt;i&gt;content &lt;/i&gt;</p>
+                <h3>Example</h3>-
+                <p> &lt;i&gt; this is 1st paragraph &lt;/i&gt;</p>
+                <h3>Output</h3>
+                <i> this is 1st paragraph </i>
+            </div>
+            <div class="fitem1">
+                <h2>Underline tag &lt;u&gt;..&lt;/u&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>To underline the text </p>
+                <h3>Syntax</h3>
+                <p> &lt;u&gt;content &lt;/u&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;u&gt; this is 1st paragraph &lt;/u&gt;</p>
+                <h3>Output</h3>
+                <u> this is 1st paragraph </u>
+            </div>
+        </div>
+        <br>
+        <div class="fbox">
+            <div class="fitem1">
+                <h2>Strike-out tag &lt;strike&gt;..&lt;/strike&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>puts a line right through the center of the text,crossing it out. <br>Often used to show that text is old and no longer relevant </p>
+                <h3>Syntax</h3>
+                <p> &lt;strike&gt;content &lt;strikeb&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;strike&gt; this is 1st paragraph &lt;/strike&gt;</p>
+                <h3>Output</h3>
+                <strike> this is 1st paragraph </strike>
+            </div>
+            <div class="fitem1">
+                <h2>Typewriter text&lt;tt&gt;..&lt;/tt&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>The text appears to have been typed by typewriter, in a fixed-width font.</p>
+                <h3>Syntax</h3>
+                <p> &lt;tt&gt;content &lt;/tt&gt;</p>
+                <h3>Example</h3>-
+                <p> &lt;tt&gt; this is 1st paragraph &lt;/tt&gt;</p>
+                <h3>Output</h3>
+                <tt> this is 1st paragraph </tt>
+            </div>
+            <div class="fitem1">
+                <h2>Small Tag &lt;small&gt;..&lt;/small&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>Instead of having to set a font size,you can use the small tag to render text slightly smaller than the text around it</p>
+                <h3>Syntax</h3>
+                <p> &lt;small&gt;content &lt;/small&gt;</p>
+                <h3>Example</h3>
+                <p> Normal text</p>
+                <p> &lt;small&gt; small text &lt;/small&gt;</p>
+                <h3>Output</h3>
+                <p>Normal text</p>
+                <small> small text </small>
+            </div>
+        </div>
+        <br>
+        <div class="fbox">
+            <div class="fitem1">
+                <h2>Big Tag &lt;big&gt;..&lt;/big&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>Instead of having to set a font size,you can use the big tag to render text slightly bigger than the text around it</p>
+                <h3>Syntax</h3>
+                <p> &lt;big&gt;content &lt;/big&gt;</p>
+                <h3>Example</h3>
+                <p> Normal text</p>
+                <p> &lt;big&gt; big text &lt;/big&gt;</p>
+                <h3>Output</h3>
+                <p>Normal text</p>
+                <big> Big text </big>
+            </div>
+            <div class="fitem1">
+                <h2>Center tag&lt;center&gt;..&lt;/center&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>A useful tag, as it says,it makes everythng in between the tags centered(in the middle of the page)</p>
+                <h3>Syntax</h3>
+                <p> &lt;center&gt;content &lt;/center&gt;</p>
+                <h3>Example</h3>-
+                <p> &lt;center&gt; this is 1st paragraph &lt;/center&gt;</p>
+                <h3>Output</h3>
+                <center> this is 1st paragraph </center>
+            </div>
+            <div class="fitem1">
+                <h2>Emphasis tag &lt;em&gt;..&lt;/em&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>It is used to emphasize text,which usually appears initalics,but can vary accorging to your browser./p>
+                <h3>Syntax</h3>
+                <p> &lt;em&gt;content &lt;/em&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;em&gt; Emphasis text &lt;/em&gt;</p>
+                <h3>Output</h3>
+                <em> Emphasis text </em>
+            </div>
+        </div>
+        <br>
+        <div class="fbox">
+            <div class="fitem">
+                <h2>horizontal tag &lt;hr&gt;</h2>
+                <p>It is paired tag. <br> It is Block level Tag. <br>the &lt;hr&gt; element used to draw a horizontal line in your document.<br>It supports following attributes :</p>
+                <br>
+                <table border="2px">
+                    <tr>
+                        <th>Attributes</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">align</td>
+                        <td>specifies the alignment of the horizontal line</td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">size</td>
+                        <td>specifies the height of the horizontal line</td>
+                    </tr>  <tr>
+                        <td align="center" valign="middle">width</td>
+                        <td >specifies the width of the horizontal line</td>
+                    </tr>
+                </tr>  <tr>
+                    <td align="center" valign="middle">color</td>
+                    <td >specifies the color of the horizontal line</td>
+                </tr>
+                </table>
+                <h3>Syntax</h3>
+                <p> &lt;hr&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;p&gt; this is 1st paragraph &lt;/p&gt;</p>
+                <p> &lt;hr width="20%" color="green" size="4px&gt;</p>
+                <h3>Output</h3>
+                <p>This is 1st paragraph</p>
+                <hr width="20%" color="green" size="4px">
+            </div>
+            <br>
+            <div class="fitem">
+                <h2>Font tag &lt;font&gt;..&lt;/font&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>Font tag is used to change the color,size or face of entire text, section of text, a paragraph or a character .<br> The following attributes of font tag are</p>
+                <br>
+                <table border="2px" cellspacing="4">
+                    <tr align="center" valign="middle">
+                        <th>Attribute</th>
+                        <th>Value</th>
+                        <th>description</th>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">size</td>
+                        <td align="center" valign="middle">num,value 1-7</td>
+                        <td>size of your text with <br> 7 being biggest</td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">color</td>
+                        <td align="center" valign="middle">rgb ,name, or hexadecimal</td>
+                        <td>font color</td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">face</td>
+                        <td align="center" valign="middle">name of font</td>
+                        <td>font-type </td>
+                    </tr>
+                </table>
+                <h3>Syntax</h3>
+                <p> &lt;font&gt;content &lt;/font&gt;</p>
+                <h3>Example</h3>-
+                <p> &lt;font color="red" size="1"&gt; this is 1st paragraph &lt;/font&gt;</p>
+                <h3>Output</h3>
+                <font style="color:red" size="1">This is 1st paragraph</font>
+            </div>
+            <div class="fitem">
+                <h2>preformatted tag &lt;pre&gt;..&lt;/pre&gt;</h2>
+                <p>It is paired tag. <br> It is Block level Tag. <br>Any text between thr &lt;pre&gt; tags,including spaces ,carriage returns and punctuation,will appears in the browser as it would in a text editor.<br>Spaces, tabs, and line breaks that exits in your actual code will be preserved with the &lt;pre&gt; tag, Which stants for previously formatted text. </p>
+                <h3>Syntax</h3>
+                <p> &lt;pre&gt;content &lt;/pre&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;pre&gt;  <pre>
+    
+            use of strong tag 
+                                use of big tag
+         &lt;/pre&gt; </pre></p>
+                <h3>Output</h3>
+        <pre>
+            use of strong tag
+                                use of big tag
+        </pre>
+            </div>
+        </div>
+        <br>
+        <div class="fbox">
+            <div class="fitem1">
+                <h2>Strong Tag &lt;strong&gt;..&lt;/strong&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>Used to emphasize text more than the surrounding text, which usually appears in bold, <br>but can vary according to your browser.</p>
+                <h3>Syntax</h3>
+                <p> &lt;strong&gt;content &lt;/strong&gt;</p>
+                <h3>Example</h3>
+                <p> &lt;strong&gt; use of strong tag &lt;/strong&gt;</p>
+                <h3>Output</h3>
+                <strong> use of strong tag</strong>
+            </div>
+            <div class="fitem1">
+                <h2>Subscript tag&lt;sub&gt;..&lt;/sub&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>For adding subscript,&lt;sub&gt; element used.</p>
+                <h3>Syntax</h3>
+                <p> &lt;sub&gt;content &lt;/sub&gt;</p>
+                <h3>Example</h3>
+                <p> x= x&lt;sub&gt;1&lt;/sub&gt; +x&lt;sub&gt;2&lt;/sub&gt; </p>
+                <h3>Output</h3>
+                <p>x=x <sub>1</sub>+ x<sub>2</sub></p>
+            </div>  
+            <div class="fitem1">
+                <h2>Superscript tag&lt;sup&gt;..&lt;/sup&gt;</h2>
+                <p>It is paired tag. <br> It is Inline Tag. <br>For adding superscript,&lt;sup&gt; element used.</p>
+                <h3>Syntax</h3>
+                <p> &lt;sup&gt;content &lt;/sup&gt;</p>
+                <h3>Example</h3>
+                <p> x= x&lt;sup&gt;1&lt;/sub&gt; +x&lt;sup&gt;2&lt;/sup&gt; </p>
+                <h3>Output</h3>
+                <p>x=x <sup>1</sup>+ x<sup>2</sup></p>
+            </div>    
+    
+    
+    </section>
+  
+</body>
+
+</html>

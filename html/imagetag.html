@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image tag</title>
+    <link rel="icon" href="../images/small.png">
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+    
+    <style>
+       section  p{
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Code Web</div>
+        <div class="menu">
+            <div class="dropdown width-25">
+                   <a href="html.html">HTML</a>
+                <div class="dropdown-content">
+                    <a href="html elements.html" target="_blank">HTML Elements</a>
+                    <a href="formatting tags.html" target="_blank">Formatting Tags</a>
+                    <a href="Lists.html" target="_blank">Lists</a>
+                    <a href="imagetag.html" target="_blank">Image Tag</a>
+                    <a href="table.html" target="_blank">Table Tag</a>
+                    <a href="form.html" target="_blank">Forms</a>
+                </div>
+            </div>
+            <a href="css1.html" target="_blank" class="width-25">CSS</a>
+        <div class="dropdown width-25">
+            <a href="#">JAVASCRIPT</a>
+            <div class="dropdown-content">
+                <a href="../js.html/js1.html" target="_blank">Question 1</a>
+                <a href="../js.html/js2.html" target="_blank">Question 2</a>
+                <a href="../js.html/js3.html" target="_blank">Question 3</a> 
+                <a href="../js.html/js4.html" target="_blank">Question 4</a>
+                <a href="../js.html/js5.html" target="_blank">Question 5</a>
+                <a href="../js.html/js6.html" target="_blank">Question 6</a>
+                <a href="../js.html/js7.html" target="_blank">Question 7</a>
+                <a href="../js.html/js8.html" target="_blank">Question 8</a>
+                <a href="../js.html/js9.html" target="_blank">Question 9</a>
+                <a href="../js.html/js10.html" target="_blank">Question 10</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <br><br>
+    <section>
+        <h1>Image tag</h1>
+        <p>Image are added to a web page using the &lt;img&gt; element.It is an empty tag which means there is no closing tag for &lt;img&gt; element.</p>
+        <h3>Syntax</h3>
+        <p>  &lt;img attribute 1="value" attribute="2" ....&gt; </p>
+        <h2>Attributes of &lt;img&gt; Tag</h2>
+        <table border="2px" cellspacing="5" cellpadding="10">
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Src</td>
+                <td>URL</td>
+                <td>Sepcifies the URL of an image</td>
+            </tr>
+            <tr>
+                <td>Alt</td>
+                <td>text</td>
+                <td>Sepcifies an alternate text for an image</td>
+            </tr>
+            <tr>
+                <td>Align</td>
+                <td>
+                    top,bottom,left<br>middle,left,right
+                </td>
+                <td>Sepcifies the alignment of an image according to surrounding elements.</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td>text</td>
+                <td>Sepcifies title text of image as pop-up</td>
+            </tr>
+            <tr>
+                <td>Border</td>
+                <td>pixels</td>
+                <td>Sepcifies the width of the border around an image.</td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>pixels</td>
+                <td>Sepcifies the width of  an image.</td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>pixels</td>
+                <td>Sepcifies the width of  an image.</td>
+            </tr>
+        </table>
+        <h3>Example</h3>
+       <p><b><i>&lt;src="../images/ocean.png" width="30%" border="4px" title="ocean image"   alt="image of ocean"&gt;</i></b></p>
+        <h3>output</h3>
+        <img src="../images/ocean.png" width="30%" border="4px" title="ocean image"   alt="image of ocean">
+        <h1>Image mapping</h1>
+        <p>An image with one or more clickable area is called image map. <br> Image maps are a valuable way to display complex sets of links. <br>An image map provides a list of coordinates on a specific image,created in order to hyperlink areas of the image to different destination</p>
+        <p>For expamle, amn image of solar system,each planet may be hyperlinked to further information about that planet.</p>
+        <h2>HTML elements requried to create image Maps</h2>
+        <p>There are three HTML elements used to create image maps:</p>
+        <p> <strong>img:</strong>specifies the location of the image to be included in the map <br><strong>map:</strong> is used to create map of clickable areas.<br><strong></strong>is used within the map element to define the clickable areas.</p>
+        <h2>Attributes of Area Element</h2>
+        <p><strong>Shape:</strong>The shape attribute of area element can have three types of value : <i>rect</i>        (rectangle),<i>circle</i> (circle), <i>poly</i> (polygons)</p>
+        <p><strong>Href:</strong>provide the hyperlink target URL for the area</p>
+        <p><strong>Coords:</strong>Specifies the text which will be display on mouse hovering on image.</p>
+        <p><strong>Alt:</strong>provides the alternate text which will be displaced if the image is not visible due top some reason.</p>
+        <p><strong>Coords:</strong>Specifies where to open the target url</p>
+        <h3>example</h3>
+        &lt;map name="ocean" &gt;
+        <br>
+        <p>
+                &lt;area shape="rect" coords="28,38,251,250" href="https://en.wikipedia.org/wiki/Facebook"  title="It will direct you to facebook website" &gt;<br>
+                &lt;area shape="rect"  coords="309,39,550,241" href="https://en.wikipedia.org/wiki/Twitter"  title="It will direct you to twitter website" &gt; <br>
+                &lt;area shape="rect" coords="612,41,831,240" href="https://en.wikipedia.org/wiki/Instagram"  title="It will direct you to instagram website" &gt;
+    </p>
+        <h3>Output</h3>
+        <map name="ocean">
+           
+            <area shape="rect" coords="28,38,251,250" href="https://en.wikipedia.org/wiki/Facebook"  title="It will direct you to facebook website" >
+            <area shape="rect" coords="309,39,550,241" href="https://en.wikipedia.org/wiki/Twitter"  title="It will direct you to twitter website" >
+            <area shape="rect" coords="612,41,831,240" href="https://en.wikipedia.org/wiki/Instagram"  title="It will direct you to instagram website" >
+        </map>
+        <img src="../images/icon.png" alt="image of ocean" usemap="#ocean">
+    </section>
+   
+</body>
+</html>

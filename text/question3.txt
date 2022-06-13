@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>question 3</title>
+        <style>
+            div{
+                height:200px;
+                width:200px;
+                margin-top:1%;
+            }
+            .first
+            {
+                background-color: red;
+            }
+            .second{
+                background-color: blueviolet;
+                margin-left:210;
+            }
+            .third
+            {
+                background-color: lightpink;
+                margin-left:420px;
+                margin-bottom:2%;
+            }
+            body{
+            border:2px solid black;
+            padding-left: 10px;
+        }
+        </style>
+    </head>
+    <body>
+            <div class="first">
+
+            </div>
+            <div class="second">
+
+            </div>
+            <div class="third">
+
+            </div>
+    </body>
+</html>
